@@ -1,0 +1,65 @@
+@import url(./sidebarBase.css);
+
+div#sidebar {
+	width: 38px !important;
+}
+
+.section .button .icon {
+	margin-left: 0px !important;
+	font-size: 16px !important;
+	min-width: 100% !important;
+	min-height: 34px !important;
+}
+
+.section .button {
+	flex-direction: column !important;
+	height: 34px !important;
+}
+
+.activeIndicator {
+	height: 34px !important;
+}
+
+.section .button .text {
+	width: 100% !important;
+	font-size: 10px !important;
+	/* height: max-content; */
+	margin: 0 !important;
+	text-align: center !important;
+	margin-top: -19px !important;
+	color: #959595 !important;
+}
+
+#back .text {
+	display: none !important;
+}
+
+div#back {
+	height: 33px !important;
+}
+
+#back .icon {
+	min-height: 33px !important;
+	font-size: 16px !important;
+}
+
+.section .button .text {
+	font-size: 0px !important;
+}
+
+.section .button.active .icon {
+	color: var(--SystemAccentColorLight2) !important;
+}
+
+._3x1HklzyDs4TEjACrRO2tB {
+	width: calc(100vw - 78px) !important;
+	flex: unset !important;
+}
+
+._1ENHEsrSLcTRtPQFl1F-wL ._3cykd-VfN_xBxf3Qxriccm :nth-child(4) svg {
+	display: none !important;
+}
+
+._1ENHEsrSLcTRtPQFl1F-wL ._3cykd-VfN_xBxf3Qxriccm :nth-child(4) div::before {
+	content: '' !important;
+}
