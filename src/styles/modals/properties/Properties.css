@@ -8,7 +8,7 @@
 }
 ._2rjVTGz8aLvqOdz5v2gq5C::after { 
     content: " • Properties";
-    color: #ffffff8c !important;
+    color: rgba(var(--ctp-text-rgb), 0.55) !important;
 }
 ._18QCu-7MTzd51UpVbYysDy.Panel {
     margin-top: 40px;
@@ -35,15 +35,15 @@ button.DialogButton._DialogLayout.Secondary.Focusable {
     margin-bottom: 3px !important;
     border: 0.5px solid rgb(var(--dark-1d)) !important;
     font-weight: normal;
-    color: #929292;
+    color: var(--ctp-overlay2);
     margin-left: 0px !important;
 }
 ._1Ym7esAMrM-Be9YZ3fC54v._2H4LypEOvoKY3pHtDIpt5l {
     margin-left: 0px !important;
-    color: #929292 !important;
+    color: var(--ctp-overlay2) !important;
 }
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody {
-    color: #929292 !important;
+    color: var(--ctp-overlay2) !important;
 }
 ._3zuICQ63IRympzZ6qgs-5O {
     color: white !important;
@@ -69,10 +69,10 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
     border-right: 0.5px solid rgb(var(--dark-30)) !important;
     border-top: 0.5px solid rgb(var(--dark-30)) !important;
     border-left: 0.5px solid rgb(var(--dark-30)) !important;
-    border-bottom: 1px solid #9A9A9A !important;
+    border-bottom: 1px solid rgb(var(--ctp-overlay1-rgb)) !important;
 }
 input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable:focus {
-    background: #1F1F1F !important;
+    background: rgb(var(--ctp-mantle-rgb)) !important;
     border-bottom: 1px solid var(--SystemAccentColorLight2) !important;
 }
 
@@ -81,5 +81,5 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable:focus {
     margin-bottom: 15px !important;
 }
 button.DialogButton._DialogLayout.Secondary.Focusable:not(.TEWmsM70ZLEOxLAjDMpcv):hover {
-    background: #3e3e3e !important;
+    background: rgb(var(--ctp-surface0-rgb)) !important;
 }

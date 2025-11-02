@@ -22,7 +22,7 @@
 
 ::-webkit-scrollbar-thumb {
     width: 10px !important;
-    background-color: #9F9F9F !important;
+    background-color: var(--ctp-overlay1) !important;
     border-radius: 16px !important;
 }
 
@@ -91,7 +91,7 @@
 ._18QCu-7MTzd51UpVbYysDy ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR::before {
     border-radius: 4px !important;
     text-align: center;
-    color: #fff;
+    color: var(--ctp-text);
     font-size: 20px !important;
     line-height: 18px !important;
     margin-right: 15px !important;
@@ -112,7 +112,7 @@
 
 ._1-vlriAtKYDViAEunue4VO:hover {
     background: rgb(var(--dark-32), 0.42) !important;
-    color: #fff !important;
+    color: var(--ctp-text) !important;
 }
 
 ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
@@ -162,12 +162,12 @@ button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable {
 }
 
 button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable:hover {
-    background: #3C3C3C;
+    background: rgb(var(--ctp-surface0-rgb));
 }
 
 ._2JtC3JSLKaOtdpAVEACsG1 {
-    background: #272727 !important;
-    border: 1px solid #9E9E9E;
+    background: rgb(var(--ctp-base-rgb)) !important;
+    border: 1px solid var(--ctp-overlay1);
     height: 18px !important;
 }
 
@@ -176,13 +176,13 @@ button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable:ho
     top: 4px !important;
     height: 12px !important;
     left: 4px !important;
-    background: #CECECE !important;
+    background: var(--ctp-subtext1) !important;
 }
 
 ._2JtC3JSLKaOtdpAVEACsG1::before {
     transform: translateX(-36px);
     transition: none !important;
-    background: #595959 !important;
+    background: rgb(var(--ctp-surface2-rgb)) !important;
     /* border: none !important; */
 }
 
@@ -235,7 +235,7 @@ button.DialogButton::before {
 
 ._2rjVTGz8aLvqOdz5v2gq5C::after {
     content: " • Properties";
-    color: #ffffff8c !important;
+    color: rgba(var(--ctp-text-rgb), 0.55) !important;
 }
 
 ._18QCu-7MTzd51UpVbYysDy.Panel {
@@ -245,7 +245,7 @@ button.DialogButton::before {
 .maximizeButton .title-area-icon-inner:hover,
 .minimizeButton .title-area-icon-inner:hover,
 .restoreButton .title-area-icon-inner:hover {
-    background: #4A4A4A;
+    background: rgb(var(--ctp-surface1-rgb));
 }
 
 ._2rjVTGz8aLvqOdz5v2gq5C {
@@ -258,12 +258,12 @@ button.DialogButton::before {
 
 .DialogDropDown {
     padding: 6px 6px 6px 12px !important;
-    border: .5px solid #3F3F3F !important;
+    border: .5px solid rgb(var(--ctp-overlay0-rgb)) !important;
     background: rgb(var(--dark-37)) !important;
 }
 
 .DialogDropDown:hover {
-    background: #3C3C3C !important;
+    background: rgb(var(--ctp-surface0-rgb)) !important;
     box-shadow: none !important;
 }
 
@@ -283,7 +283,7 @@ button.DialogButton::before {
     border: 0.5px solid rgb(var(--dark-20));
     box-shadow: none !important;
     margin-bottom: 0px !important;
-    background: #2C2C2C !important;
+    background: rgb(var(--ctp-base-rgb)) !important;
     max-width: 535px !important;
 }
 
@@ -303,7 +303,7 @@ button.DialogButton::before {
 }
 
 ._2OJfkxlD3X9p8Ygu1vR7Lr {
-    color: #929292 !important;
+    color: var(--ctp-overlay2) !important;
 }
 
 ._1ml4SNc3LIyBDHIf8ekVSw.Shared_Radio_Group.Panel {
@@ -315,23 +315,23 @@ button.DialogButton::before {
 }
 
 .HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable:not(._3-_jME_xsuvgT3Dvq4bw_q) {
-    border: .5px solid #3F3F3F !important;
+    border: .5px solid rgb(var(--ctp-overlay0-rgb)) !important;
     background: rgb(var(--dark-37)) !important;
 }
 
 .HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable:hover:not(._3-_jME_xsuvgT3Dvq4bw_q) {
-    background: #3C3C3C !important;
+    background: rgb(var(--ctp-surface0-rgb)) !important;
 }
 
 .HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q.Focusable {
-    background: #595959 !important;
-    border: 0.5px solid #666666 !important;
+    background: rgb(var(--ctp-surface2-rgb)) !important;
+    border: 0.5px solid rgb(var(--ctp-overlay0-rgb)) !important;
     color: #000 !important;
     font-weight: 400;
 }
 
 .HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q.Focusable:hover {
-    background: #555555 !important;
+    background: rgb(var(--ctp-surface2-rgb)) !important;
 }
 
 ._24G4gV0rYtRbebXM44GkKk._3ld7THBuSMiFtcB_Wo165i.Focusable::before {
@@ -365,15 +365,15 @@ button.DialogButton::before {
 .DialogCheckbox.Active {
     border-radius: 4px;
     box-shadow: none !important;
-    background: #595959;
+    background: rgb(var(--ctp-surface2-rgb));
 }
 
 .DialogCheckbox.Active:hover {
-    background: #535353 !important;
+    background: rgb(var(--ctp-surface2-rgb)) !important;
 }
 
 /* .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), .DialogCheckbox:hover:not(.Disabled), .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled), .DialogCheckbox:focus:not(.Disabled) {
-    background: #535353 !important;
+    background: rgb(var(--ctp-surface2-rgb)) !important;
 } */
 .DialogCheckbox {
     height: 20px;
@@ -395,13 +395,13 @@ button.DialogButton::before {
 
 .DialogCheckbox:not(.Active) {
     background: rgb(var(--dark-1d)) !important;
-    border: 0.5px solid #999999;
+    border: 0.5px solid rgb(var(--ctp-overlay1-rgb));
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 .DialogCheckbox:not(.Active) {
-    background: #2A2A2A !important;
+    background: rgb(var(--ctp-base-rgb)) !important;
 }
 
 button._3aB-C2eTsfVtvZR5sC9N_r.DialogButton._DialogLayout.Small.Focusable {
@@ -439,7 +439,7 @@ button._3aB-C2eTsfVtvZR5sC9N_r.WCaU2nUGonBQ-0INHRlgk::before {
 .DialogCheckbox:hover:not(.Disabled),
 .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled),
 .DialogCheckbox:focus:not(.Disabled) {
-    background: #545454;
+    background: rgb(var(--ctp-surface2-rgb));
 }
 
 .DialogBodyText._3fPiC9QRyT5oJ6xePCVYz8 {
@@ -477,7 +477,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 .DesktopUI .DialogTextInputBase:focus,
 .DialogTextInputBase:focus-within {
     box-shadow: none !important;
-    border: 0.5px solid #66666685 !important;
+    border: 0.5px solid rgb(var(--ctp-overlay0-rgb))85 !important;
 }
 
 button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable {
@@ -507,21 +507,21 @@ button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable sv
 }
 
 ._2_0JonK7eKEvh8IoOvq0-B {
-    background: #4C4C4C !important;
+    background: rgb(var(--ctp-surface1-rgb)) !important;
 }
 
 .Mq25Nap224hVdTdtXSsnq {
-    background: #9F9F9F !important;
-    --left-track-color: #595959 !important;
+    background: var(--ctp-overlay1) !important;
+    --left-track-color: rgb(var(--ctp-surface2-rgb)) !important;
     height: 4px !important;
 }
 
 ._2yVKjlAVW3txkGmVpX9G8i {
-    border: 5px solid #454545 !important;
+    border: 5px solid rgb(var(--ctp-surface1-rgb)) !important;
     box-sizing: border-box;
     height: 22px !important;
     width: 22px !important;
-    background: #595959 !important;
+    background: rgb(var(--ctp-surface2-rgb)) !important;
     top: 1px !important;
     right: 1px !important;
     box-shadow: none !important;
@@ -529,12 +529,12 @@ button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable sv
 }
 
 ._3o137DBNF03ytbLBl2jPri:hover>._1pQZiklDl2xXiNsZ6Uvy_a>._2yVKjlAVW3txkGmVpX9G8i {
-    border: 3px solid #454545 !important;
+    border: 3px solid rgb(var(--ctp-surface1-rgb)) !important;
 }
 
 ._2RCSUgg2X_uF_C0e1lrcqc.Panel:hover {
     /* padding: 6px 6px 6px 12px !important; */
-    border: .5px solid #3F3F3F !important;
+    border: .5px solid rgb(var(--ctp-overlay0-rgb)) !important;
     background: rgb(var(--dark-37)) !important;
     box-sizing: border-box !important;
     border-radius: 6px;
@@ -545,7 +545,7 @@ button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable sv
 }
 
 ._3rGEUoEnGkGWALEBzbvfef {
-    border: .5px solid #3F3F3F !important;
+    border: .5px solid rgb(var(--ctp-overlay0-rgb)) !important;
     background: rgb(var(--dark-37)) !important;
     box-sizing: border-box !important;
     border-radius: 4px;
@@ -557,12 +557,12 @@ button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable sv
 }
 
 ._1WKUOT3FdB9-48MMP0Tz9l.Focusable {
-    background: #4a4a4a !important;
-    border: 0.5px solid #6666664a;
+    background: rgb(var(--ctp-surface1-rgb)) !important;
+    border: 0.5px solid rgb(var(--ctp-overlay0-rgb))4a;
 }
 
 ._1rihlgVMF4Q_fFZDnXeVt5 {
-    color: #fff !important;
+    color: var(--ctp-text) !important;
 }
 
 .r3hOLjghfVd2FkvKjlsrO._1wvuEFDaiHcn5QErl3Lghh {
@@ -575,17 +575,17 @@ button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable sv
     margin-bottom: 3px !important;
     border: 0.5px solid rgb(var(--dark-1d)) !important;
     font-weight: normal;
-    color: #929292;
+    color: var(--ctp-overlay2);
     margin-left: 0px !important;
 }
 
 ._1Ym7esAMrM-Be9YZ3fC54v._2H4LypEOvoKY3pHtDIpt5l {
     margin-left: 0px !important;
-    color: #929292 !important;
+    color: var(--ctp-overlay2) !important;
 }
 
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody {
-    color: #929292 !important;
+    color: var(--ctp-overlay2) !important;
 }
 
 ._3zuICQ63IRympzZ6qgs-5O {
@@ -639,11 +639,11 @@ button.DialogButton._DialogLayout.Secondary.Focusable {
 .DialogCheckbox.Active {
     border-radius: 4px;
     box-shadow: none !important;
-    background: #595959;
+    background: rgb(var(--ctp-surface2-rgb));
 }
 
 .DialogCheckbox.Active:hover {
-    background: #535353 !important;
+    background: rgb(var(--ctp-surface2-rgb)) !important;
 }
 
 .DialogCheckbox {
@@ -665,11 +665,11 @@ button.DialogButton._DialogLayout.Secondary.Focusable {
 
 .DialogCheckbox:not(.Active) {
     background: rgb(var(--dark-1d)) !important;
-    border: 0.5px solid #999999;
+    border: 0.5px solid rgb(var(--ctp-overlay1-rgb));
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 .DialogCheckbox:not(.Active) {
-    background: #2A2A2A !important;
+    background: rgb(var(--ctp-base-rgb)) !important;
 }

@@ -20,11 +20,11 @@
 
 .contextMenuItem:not(.Z5iAXBkRFGnwpXsO8ANTl):hover {
     background: var(--background-col) !important;
-    color: #fff !important;
+    color: var(--ctp-text) !important;
 }
 
 ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
     background: #0000004d !important;
-    border: 0.5px solid #2828284d !important;
+    border: 0.5px solid rgba(var(--ctp-overlay0-rgb), 0.3) !important;
     border-radius: 6px !important;
 }

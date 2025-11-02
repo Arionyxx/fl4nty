@@ -1,8 +1,8 @@
 /* CATPPUCCIN MIGRATION NOTES - TITLEBAR WINDOW BUTTONS
  * This file styles the minimize/maximize/close window control buttons.
  * Key migration points:
- * - Button text color: #fff → ctp-text
- * - Close button hover: #e81123 → ctp-red (Windows red preserved as Catppuccin red)
+ * - Button text color: var(--ctp-text) → ctp-text
+ * - Close button hover: var(--ctp-red) → ctp-red (Windows red preserved as Catppuccin red)
  * See CATPPUCCIN_THEME_MAPPING.md for complete mapping.
  */
 
@@ -19,7 +19,7 @@
     height: 32px !important; /* default height of the titlebar button on windows */
     width: 46px !important; /* default width of the titlebar button on windows */
     text-align: center;
-    color: #fff;
+    color: var(--ctp-text);
 }
 
 ._1ENHEsrSLcTRtPQFl1F-wL .title-area-icon,
@@ -60,5 +60,5 @@
 
 /* close button hover */
 .title-area-icon.closeButton.windowControlButton:hover {
-    background: #e81123 !important;
+    background: var(--ctp-red) !important;
 }

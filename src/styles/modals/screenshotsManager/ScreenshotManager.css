@@ -19,7 +19,7 @@
     margin-top: 8px;
     background: var(--accent-secondary) !important;
     border-radius: 6px !important;
-    border-top: 0.5px solid #3F3F3F;
+    border-top: 0.5px solid rgb(var(--ctp-overlay0-rgb));
     border-left: 0.5px solid var(--border-color-secondary);
     border-bottom: 0.5px solid var(--border-color-secondary);
     border-right: 0.5px solid var(--border-color-secondary);

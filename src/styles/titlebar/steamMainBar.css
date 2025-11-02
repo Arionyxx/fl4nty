@@ -11,7 +11,7 @@
   height: 100% !important; /* default height of the titlebar button on windows */
   width: 46px !important; /* default width of the titlebar button on windows */
   text-align: center;
-  color: #fff;
+  color: var(--ctp-text);
 }
 
 ._1ENHEsrSLcTRtPQFl1F-wL .title-area-icon, .friendsui-container .title-area-icon {
@@ -56,7 +56,7 @@
 
 /* close button hover */
 .title-area-icon.closeButton.windowControlButton:hover {
-  background: #E81123 !important;
+  background: var(--ctp-red) !important;
 }
 
 ._1ENHEsrSLcTRtPQFl1F-wL .title-bar-actions, .friendsui-container .title-bar-actions {

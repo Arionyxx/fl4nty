@@ -21,7 +21,7 @@ body.ContextMenuPopupBody.DesktopUI {
 ._3k90ug209sE23xAMqcM74s.Panel,
 button._1oERP7bVictkby2hP4BBva,
 ._3B8wRA4H7e_oSksYNqpSPv._1B1XTNsfuwOaDPAkkr8M42 {
-    background: #3535358a !important;
+    background: rgba(var(--ctp-surface0-rgb), 0.54) !important;
     border-radius: 6px !important;
     border: 1px solid rgb(var(--dark-29)) !important;
 }

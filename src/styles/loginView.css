@@ -6,7 +6,7 @@
 
 ._3nhzM2H8Opkomzs5OG5oux {
     border-radius: 6px !important;
-    border: 1px solid #404040 !important;
+    border: 1px solid rgb(var(--ctp-surface0-rgb)) !important;
 }
 
 .l_0WJ2pzm_5Zp7gfT_UZz ._3nhzM2H8Opkomzs5OG5oux>img,
@@ -34,7 +34,7 @@
     border-right: 0.5px solid rgb(var(--dark-30)) !important;
     border-top: 0.5px solid rgb(var(--dark-30)) !important;
     border-left: 0.5px solid rgb(var(--dark-30)) !important;
-    border-bottom: 1px solid #9A9A9A !important;
+    border-bottom: 1px solid rgb(var(--ctp-overlay1-rgb)) !important;
 }
 
 .ZOBYq36SukEm_Fi_77g2q ._2eKVn6g5Yysx9JmutQe7WV {
@@ -77,13 +77,13 @@ button._2QgFEj17t677s3x299PNJQ {
 
 .DialogCheckbox:not(.Active) {
     background: rgb(var(--dark-1d)) !important;
-    border: 0.5px solid #999999;
+    border: 0.5px solid rgb(var(--ctp-overlay1-rgb));
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 .DialogCheckbox:not(.Active) {
-    background: #2A2A2A !important;
+    background: rgb(var(--ctp-base-rgb)) !important;
 }
 
 input._2eKVn6g5Yysx9JmutQe7WV:focus {

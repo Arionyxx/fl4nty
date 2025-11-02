@@ -1,6 +1,6 @@
 .C9tvuqqEXGcrkcAtHrQ_R.PopupFullWindow._290hvyptb3mP0rOSaapjgZ.GameOverview {
     border-radius: 6px;
-    border: 1px solid #333;
+    border: 1px solid rgb(var(--ctp-surface0-rgb));
     box-sizing: border-box;
     height: 100%;
     background: rgb(var(--dark-21)) !important;
@@ -32,20 +32,20 @@
 }
 
 ._17TJ4vdOZjHL-bjbRUKzxp._3WMiI5PUctRy9VuvX4r5hj {
-    background: #252525;
+    background: rgb(var(--ctp-mantle-rgb));
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
 
 ._17TJ4vdOZjHL-bjbRUKzxp {
-    background: #252525;
+    background: rgb(var(--ctp-mantle-rgb));
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     padding: 2px;
 }
 
 ._2OwqXw1nhBL430bsYTeEr- {
-    background: #252525 !important;
+    background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 ._2heIyaBp5LdaF76WpjYU4R {
