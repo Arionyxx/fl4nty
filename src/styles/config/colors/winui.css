@@ -1,3 +1,11 @@
+/* CATPPUCCIN MIGRATION - WINUI THEME
+ * This WinUI-inspired theme mirrors the dark.css structure.
+ * Will be migrated to use Catppuccin Mocha palette tokens.
+ * See CATPPUCCIN_THEME_MAPPING.md for complete token mapping.
+ * Slight RGB value variations from dark.css (e.g., --dark-1b: 32 vs 27)
+ * will be normalized to standard Catppuccin tokens.
+ */
+
 :root {
     --background-fill-color-layer-default: rgb(var(--dark-3a), 0.3);
 

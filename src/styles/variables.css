@@ -10,13 +10,36 @@
 
 :root {
     --text-font-family: "Segoe";
+    
+    /* CATPPUCCIN MIGRATION NOTES:
+     * This file contains core UI variables that will be replaced with Catppuccin tokens.
+     * See CATPPUCCIN_THEME_MAPPING.md for complete mapping details.
+     */
+    
+    /* Noise texture - KEEP: Used for acrylic/blur effects */
     --background-fill-color-acrylic-background-default: url("../media/noise.jpeg");
+    
+    /* Primary accent color - REPLACE WITH: var(--ctp-blue) */
     --fill-color-accent-default: #005fb8;
+    
+    /* Secondary accent/highlight - REPLACE WITH: var(--ctp-lavender) @ 90% opacity */
     --fill-color-accent-secondary: rgba(96, 205, 255, 0.9);
+    
+    /* Base window background - REPLACE WITH: var(--ctp-base) or rgb(var(--ctp-base-rgb)) */
     --background-fill-color-mica-background-base: rgb(32 32 32);
+    
+    /* Subtle borders - REPLACE WITH: var(--ctp-overlay0) @ 10% or rgba(var(--ctp-overlay0-rgb), 0.1) */
     --stroke-color-card-stroke-default: rgba(0, 0, 0, 0.1);
+    
+    /* Accent fallback - REPLACE WITH: var(--ctp-blue) */
     --main-accent-default: var(--SystemAccentColorLight2, --fill-color-accent-secondary);
+    
+    /* Hover/active background - REPLACE WITH: var(--ctp-surface1) */
     --fill-color-subtle-secondary: #454545;
+    
+    /* Primary text - REPLACE WITH: var(--ctp-text) */
     --fill-color-text-primary: rgba(255, 255, 255, 1);
+    
+    /* Translucent background for acrylic - REPLACE WITH: rgba(var(--ctp-mantle-rgb), 0.96) */
     --fill-color-acrylic-background-default: rgba(44, 44, 44, 0.96);
 }

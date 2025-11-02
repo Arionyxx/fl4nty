@@ -1,3 +1,13 @@
+/* CATPPUCCIN MIGRATION - AMOLED THEME
+ * This AMOLED variant uses pure blacks for deepest backgrounds.
+ * Will be migrated to Catppuccin Mocha with adjusted base colors:
+ * - ctp-crust → #000000 (pure black)
+ * - ctp-mantle → #0a0a0a (near black)
+ * - ctp-base → #0f0f0f (very dark gray)
+ * Other tokens remain standard Catppuccin Mocha values.
+ * See CATPPUCCIN_THEME_MAPPING.md for details.
+ */
+
 :root {
     --background-fill-color-layer-default: rgb(var(--dark-3a), 0.3);
 

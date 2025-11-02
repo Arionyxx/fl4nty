@@ -1,4 +1,20 @@
+/* CATPPUCCIN MIGRATION - DARK THEME
+ * This file will be migrated to use Catppuccin Mocha palette tokens.
+ * The --dark-XX RGB component system maps to Catppuccin base/surface/overlay tokens.
+ * See CATPPUCCIN_THEME_MAPPING.md for complete token mapping.
+ *
+ * Token hierarchy (darkest to lightest):
+ * --dark-13/14 → ctp-crust (deepest backgrounds)
+ * --dark-19/1b → ctp-mantle (sidebars, alternate backgrounds)
+ * --dark-1d/20/21 → ctp-base (primary surfaces)
+ * --dark-29/2b → ctp-surface0 (elevated surfaces)
+ * --dark-2d/30/31 → ctp-surface1 (interactive elements)
+ * --dark-32/37 → ctp-surface2 (hover/active states)
+ * --dark-3a → ctp-overlay0 (borders, overlays)
+ */
+
 :root {
+    /* Layer backgrounds - MAP TO: rgba(var(--ctp-overlay0-rgb), 0.3) */
     --background-fill-color-layer-default: rgb(var(--dark-3a), 0.3);
 
     --settings-sidebar-btn-bg: rgb(var(--dark-2d));
@@ -24,22 +40,35 @@
     --focusable-col: rgb(var(--dark-2b));
     --input-border-col: rgb(var(--dark-30));
 
-    --context-menu-bg: 37, 37, 37;
-    --tray-menu-bg: 40, 40, 40;
+    --context-menu-bg: 37, 37, 37; /* MAP TO: var(--ctp-mantle-rgb) */
+    --tray-menu-bg: 40, 40, 40; /* MAP TO: var(--ctp-surface0-rgb) */
 
-    --dark-13: 19, 19, 19;
-    --dark-14: 20, 20, 20;
-    --dark-19: 25, 25, 25;
-    --dark-1b: 27, 27, 27;
-    --dark-1d: 29, 29, 29;
-    --dark-20: 32, 32, 32;
-    --dark-21: 33, 33, 33;
-    --dark-29: 41, 41, 41;
-    --dark-2b: 43, 43, 43;
-    --dark-2d: 45, 45, 45;
-    --dark-30: 48, 48, 48;
-    --dark-31: 49, 49, 49;
-    --dark-32: 50, 50, 50;
-    --dark-37: 55, 55, 55;
-    --dark-3a: 58, 58, 58;
+    /* RGB Component Tokens - Base Backgrounds (Darkest) */
+    --dark-13: 19, 19, 19; /* → ctp-crust-rgb (17, 17, 27) */
+    --dark-14: 20, 20, 20; /* → ctp-crust-rgb (17, 17, 27) */
+    
+    /* RGB Component Tokens - Mantle/Alternate Backgrounds */
+    --dark-19: 25, 25, 25; /* → ctp-mantle-rgb (24, 24, 37) */
+    --dark-1b: 27, 27, 27; /* → ctp-mantle-rgb (24, 24, 37) */
+    
+    /* RGB Component Tokens - Base/Primary Backgrounds */
+    --dark-1d: 29, 29, 29; /* → ctp-base-rgb (30, 30, 46) */
+    --dark-20: 32, 32, 32; /* → ctp-base-rgb (30, 30, 46) */
+    --dark-21: 33, 33, 33; /* → ctp-base-rgb (30, 30, 46) */
+    
+    /* RGB Component Tokens - Elevated Surfaces */
+    --dark-29: 41, 41, 41; /* → ctp-surface0-rgb (49, 50, 68) */
+    --dark-2b: 43, 43, 43; /* → ctp-surface0-rgb (49, 50, 68) */
+    
+    /* RGB Component Tokens - Interactive Elements */
+    --dark-2d: 45, 45, 45; /* → ctp-surface1-rgb (69, 71, 90) */
+    --dark-30: 48, 48, 48; /* → ctp-surface1-rgb (69, 71, 90) */
+    --dark-31: 49, 49, 49; /* → ctp-surface1-rgb (69, 71, 90) */
+    
+    /* RGB Component Tokens - Hover/Active States */
+    --dark-32: 50, 50, 50; /* → ctp-surface2-rgb (88, 91, 112) */
+    --dark-37: 55, 55, 55; /* → ctp-surface2-rgb (88, 91, 112) */
+    
+    /* RGB Component Tokens - Overlays/Borders */
+    --dark-3a: 58, 58, 58; /* → ctp-overlay0-rgb (108, 112, 134) */
 }

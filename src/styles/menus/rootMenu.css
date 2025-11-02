@@ -1,3 +1,14 @@
+/* CATPPUCCIN MIGRATION NOTES - CONTEXT MENUS
+ * This file styles the root context menu with acrylic/noise effects.
+ * Key migration points:
+ * - Menu background: rgb(var(--context-menu-bg)) → ctp-mantle
+ * - Menu border: rgb(var(--dark-1b)) → ctp-overlay0
+ * - Hover state: rgb(var(--dark-32), 0.42) → ctp-surface2 @ 42%
+ * - Separator: rgb(var(--dark-31)) → ctp-overlay0
+ * - Noise texture overlay preserved for acrylic effect
+ * See CATPPUCCIN_THEME_MAPPING.md for complete mapping.
+ */
+
 html._14wqdluDeDnnEcg3OSLEmd body {
     background: transparent !important;
 }
