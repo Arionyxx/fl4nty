@@ -11,35 +11,36 @@
 :root {
     --text-font-family: "Segoe";
     
-    /* CATPPUCCIN MIGRATION NOTES:
-     * This file contains core UI variables that will be replaced with Catppuccin tokens.
+    /* CATPPUCCIN THEME VARIABLES
+     * Core UI variables now use Catppuccin tokens.
+     * Catppuccin tokens are defined in color scheme files under src/styles/config/colors/catppuccin/
      * See CATPPUCCIN_THEME_MAPPING.md for complete mapping details.
      */
     
-    /* Noise texture - KEEP: Used for acrylic/blur effects */
+    /* Noise texture - Preserved for acrylic/blur effects */
     --background-fill-color-acrylic-background-default: url("../media/noise.jpeg");
     
-    /* Primary accent color - REPLACE WITH: var(--ctp-blue) */
-    --fill-color-accent-default: #005fb8;
+    /* Primary accent color - Uses Catppuccin blue */
+    --fill-color-accent-default: var(--ctp-blue);
     
-    /* Secondary accent/highlight - REPLACE WITH: var(--ctp-lavender) @ 90% opacity */
-    --fill-color-accent-secondary: rgba(96, 205, 255, 0.9);
+    /* Secondary accent/highlight - Uses Catppuccin lavender with opacity */
+    --fill-color-accent-secondary: rgba(var(--ctp-lavender-rgb), 0.9);
     
-    /* Base window background - REPLACE WITH: var(--ctp-base) or rgb(var(--ctp-base-rgb)) */
-    --background-fill-color-mica-background-base: rgb(32 32 32);
+    /* Base window background - Uses Catppuccin base */
+    --background-fill-color-mica-background-base: rgb(var(--ctp-base-rgb));
     
-    /* Subtle borders - REPLACE WITH: var(--ctp-overlay0) @ 10% or rgba(var(--ctp-overlay0-rgb), 0.1) */
-    --stroke-color-card-stroke-default: rgba(0, 0, 0, 0.1);
+    /* Subtle borders - Uses Catppuccin overlay with low opacity */
+    --stroke-color-card-stroke-default: rgba(var(--ctp-overlay0-rgb), 0.1);
     
-    /* Accent fallback - REPLACE WITH: var(--ctp-blue) */
-    --main-accent-default: var(--SystemAccentColorLight2, --fill-color-accent-secondary);
+    /* Accent fallback - Uses Catppuccin blue */
+    --main-accent-default: var(--SystemAccentColorLight2, var(--ctp-blue));
     
-    /* Hover/active background - REPLACE WITH: var(--ctp-surface1) */
-    --fill-color-subtle-secondary: #454545;
+    /* Hover/active background - Uses Catppuccin surface1 */
+    --fill-color-subtle-secondary: var(--ctp-surface1);
     
-    /* Primary text - REPLACE WITH: var(--ctp-text) */
-    --fill-color-text-primary: rgba(255, 255, 255, 1);
+    /* Primary text - Uses Catppuccin text */
+    --fill-color-text-primary: var(--ctp-text);
     
-    /* Translucent background for acrylic - REPLACE WITH: rgba(var(--ctp-mantle-rgb), 0.96) */
-    --fill-color-acrylic-background-default: rgba(44, 44, 44, 0.96);
+    /* Translucent background for acrylic - Uses Catppuccin mantle with opacity */
+    --fill-color-acrylic-background-default: rgba(var(--ctp-mantle-rgb), 0.96);
 }

@@ -236,23 +236,39 @@
     },
     "Color Scheme": {
       "tab": "Color Preferences",
-      "description": "Adjust the color scheme of Fluenty. Recent Steam updates ruined these, but they still somewhat work. We are working on fixing them.",
-      "default": "Dark",
+      "description": "Select a Catppuccin color palette. Mocha (dark) is the default and most popular. Macchiato and Frappé are alternative dark themes, while Latte is a light theme.",
+      "default": "Mocha",
       "values": {
-        "WinUI": {
+        "Mocha": {
           "TargetCss": {
             "affects": [
               ".*"
             ],
-            "src": "src/styles/config/colors/winui.css"
+            "src": "src/styles/config/colors/catppuccin/mocha.css"
           }
         },
-        "Dark": {
+        "Macchiato": {
           "TargetCss": {
             "affects": [
               ".*"
             ],
-            "src": "src/styles/config/colors/dark.css"
+            "src": "src/styles/config/colors/catppuccin/macchiato.css"
+          }
+        },
+        "Frappé": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "src/styles/config/colors/catppuccin/frappe.css"
+          }
+        },
+        "Latte": {
+          "TargetCss": {
+            "affects": [
+              ".*"
+            ],
+            "src": "src/styles/config/colors/catppuccin/latte.css"
           }
         }
       }

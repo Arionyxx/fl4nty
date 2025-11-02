@@ -1,0 +1,111 @@
+/* Catppuccin Frappé - Dark Theme
+ * Official Catppuccin Frappé palette (dark variant)
+ * https://github.com/catppuccin/catppuccin
+ */
+
+:root {
+    /* Catppuccin Frappé - Accent Colors */
+    --ctp-rosewater: #f2d5cf;
+    --ctp-flamingo: #eebebe;
+    --ctp-pink: #f4b8e4;
+    --ctp-mauve: #ca9ee6;
+    --ctp-red: #e78284;
+    --ctp-maroon: #ea999c;
+    --ctp-peach: #ef9f76;
+    --ctp-yellow: #e5c890;
+    --ctp-green: #a6d189;
+    --ctp-teal: #81c8be;
+    --ctp-sky: #99d1db;
+    --ctp-sapphire: #85c1dc;
+    --ctp-blue: #8caaee;
+    --ctp-lavender: #babbf1;
+    
+    /* Catppuccin Frappé - Text Colors */
+    --ctp-text: #c6d0f5;
+    --ctp-subtext1: #b5bfe2;
+    --ctp-subtext0: #a5adce;
+    
+    /* Catppuccin Frappé - Surface & Overlay Tones */
+    --ctp-overlay2: #949cbb;
+    --ctp-overlay1: #838ba7;
+    --ctp-overlay0: #737994;
+    --ctp-surface2: #626880;
+    --ctp-surface1: #51576d;
+    --ctp-surface0: #414559;
+    
+    /* Catppuccin Frappé - Base Backgrounds */
+    --ctp-base: #303446;
+    --ctp-mantle: #292c3c;
+    --ctp-crust: #232634;
+    
+    /* RGB Variants for use with rgb() and rgba() */
+    --ctp-rosewater-rgb: 242, 213, 207;
+    --ctp-flamingo-rgb: 238, 190, 190;
+    --ctp-pink-rgb: 244, 184, 228;
+    --ctp-mauve-rgb: 202, 158, 230;
+    --ctp-red-rgb: 231, 130, 132;
+    --ctp-maroon-rgb: 234, 153, 156;
+    --ctp-peach-rgb: 239, 159, 118;
+    --ctp-yellow-rgb: 229, 200, 144;
+    --ctp-green-rgb: 166, 209, 137;
+    --ctp-teal-rgb: 129, 200, 190;
+    --ctp-sky-rgb: 153, 209, 219;
+    --ctp-sapphire-rgb: 133, 193, 220;
+    --ctp-blue-rgb: 140, 170, 238;
+    --ctp-lavender-rgb: 186, 187, 241;
+    --ctp-text-rgb: 198, 208, 245;
+    --ctp-subtext1-rgb: 181, 191, 226;
+    --ctp-subtext0-rgb: 165, 173, 206;
+    --ctp-overlay2-rgb: 148, 156, 187;
+    --ctp-overlay1-rgb: 131, 139, 167;
+    --ctp-overlay0-rgb: 115, 121, 148;
+    --ctp-surface2-rgb: 98, 104, 128;
+    --ctp-surface1-rgb: 81, 87, 109;
+    --ctp-surface0-rgb: 65, 69, 89;
+    --ctp-base-rgb: 48, 52, 70;
+    --ctp-mantle-rgb: 41, 44, 60;
+    --ctp-crust-rgb: 35, 38, 52;
+
+    /* Legacy RGB Component Tokens - Mapped to Catppuccin */
+    /* These maintain compatibility with existing theme system */
+    --dark-13: var(--ctp-crust-rgb);
+    --dark-14: var(--ctp-crust-rgb);
+    --dark-19: var(--ctp-mantle-rgb);
+    --dark-1b: var(--ctp-mantle-rgb);
+    --dark-1d: var(--ctp-base-rgb);
+    --dark-20: var(--ctp-base-rgb);
+    --dark-21: var(--ctp-base-rgb);
+    --dark-29: var(--ctp-surface0-rgb);
+    --dark-2b: var(--ctp-surface0-rgb);
+    --dark-2d: var(--ctp-surface1-rgb);
+    --dark-30: var(--ctp-surface1-rgb);
+    --dark-31: var(--ctp-surface1-rgb);
+    --dark-32: var(--ctp-surface2-rgb);
+    --dark-37: var(--ctp-surface2-rgb);
+    --dark-3a: var(--ctp-overlay0-rgb);
+
+    /* Semantic Variables - Using Catppuccin Tokens */
+    --background-fill-color-layer-default: rgb(var(--ctp-overlay0-rgb), 0.3);
+    --settings-sidebar-btn-bg: rgb(var(--ctp-surface1-rgb));
+    --settings-sidebar-hover-bg: rgb(var(--ctp-surface0-rgb));
+    --settings-sidebar-hover-not-select: rgb(var(--ctp-surface2-rgb), 0.42);
+    --compact-mode-navbar-button-col: rgb(var(--ctp-surface1-rgb), 0.49);
+    --settings-button-col: rgb(var(--ctp-surface2-rgb));
+    --settings-groupbox-bg: rgb(var(--ctp-surface0-rgb));
+    --settings-mdl-bg: rgb(var(--ctp-base-rgb));
+    --window-bg: rgb(var(--ctp-mantle-rgb));
+    --nosidebar-title: rgb(var(--ctp-base-rgb), 0.46);
+    --titlebar-color: rgb(var(--ctp-mantle-rgb), 0.82);
+    --background-col: rgb(var(--ctp-base-rgb));
+    --accent-col: rgb(var(--ctp-base-rgb));
+    --color-darker: rgb(var(--ctp-mantle-rgb));
+    --color-darkest: rgb(var(--ctp-crust-rgb));
+    --color-light: rgb(var(--ctp-surface1-rgb));
+    --border-color: rgb(var(--ctp-base-rgb));
+    --border-color-secondary: rgb(var(--ctp-overlay0-rgb));
+    --accent-secondary: rgb(var(--ctp-surface2-rgb));
+    --focusable-col: rgb(var(--ctp-surface0-rgb));
+    --input-border-col: rgb(var(--ctp-surface1-rgb));
+    --context-menu-bg: var(--ctp-mantle-rgb);
+    --tray-menu-bg: var(--ctp-surface0-rgb);
+}
