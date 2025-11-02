@@ -3,7 +3,7 @@ html body.v6 div#footer_spacer {
 }
 
 html.responsive.client {
-    background: #202020 !important;
+    background: rgb(var(--ctp-base-rgb)) !important;
 }
 
 .agegate_content_descriptors_notes {
@@ -29,7 +29,7 @@ a.btnv6_blue_hoverfade.btn_medium span {
 }
 
 #app_agegate select {
-    background: #333333 !important;
+    background: rgb(var(--ctp-surface0-rgb)) !important;
     color: white !important;
     height: 33px !important;
     padding-left: 10px !important;
@@ -46,5 +46,5 @@ html .agegate_birthday_desc {
 }
 
 body.responsive_page {
-    background: #202020 !important;
+    background: rgb(var(--ctp-base-rgb)) !important;
 }

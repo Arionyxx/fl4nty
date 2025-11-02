@@ -1,11 +1,11 @@
 ._1VNuYHM6BPBOJspC6zPf5r {
-    background: rgb(var(--dark-32));
-    border: 0.5px solid #232323;
+    background: rgb(var(--ctp-surface2-rgb));
+    border: 0.5px solid rgba(var(--ctp-overlay0-rgb), 0.3);
     border-radius: 6px;
 }
 
 .Z6wLCsR5it0hjFblgrb6 {
-    background: #272727;
+    background: rgb(var(--ctp-base-rgb));
 }
 
 ._1CTr1yKRkOXnJ4gSS1-1A3 {
@@ -35,17 +35,17 @@ span._35eOQ6EeVHNV5HGBrJ1-Vu {
 }
 
 span._1dHjjSl-57o1KQsQ1m1HSA._3WavcSX0NkHlBh5fICWKyB {
-    color: #fff9 !important;
+    color: rgba(var(--ctp-text-rgb), 0.6) !important;
     margin-right: 0 !important;
 }
 
 .sv3ZHPWbrD7yjwx5Mi3u5 {
-    color: #fff9 !important;
+    color: rgba(var(--ctp-text-rgb), 0.6) !important;
     font-weight: normal !important;
 }
 
 span._1dHjjSl-57o1KQsQ1m1HSA._2ckIrOaAwEey3RdOBG-FJS {
-    color: #fff9 !important;
+    color: rgba(var(--ctp-text-rgb), 0.6) !important;
     margin-left: 0px !important;
 }
 
@@ -54,15 +54,15 @@ span._1dHjjSl-57o1KQsQ1m1HSA._2ckIrOaAwEey3RdOBG-FJS {
 }
 
 ._1VNuYHM6BPBOJspC6zPf5r:hover {
-    background: #393939 !important;
-    border: 0.5px solid #393939 !important;
+    background: rgba(var(--ctp-overlay0-rgb), 0.3) !important;
+    border: 0.5px solid rgba(var(--ctp-overlay0-rgb), 0.3) !important;
     border-radius: 6px !important;
 }
 
 button._3oavRVhIS9tC3vBsFT4Ggi.DialogButton._DialogLayout.Secondary.Focusable {
-    background: #454545 !important;
+    background: rgb(var(--ctp-surface1-rgb)) !important;
     border-radius: 6px !important;
-    border: 0.5px solid #4C4C4C !important;
+    border: 0.5px solid rgb(var(--ctp-surface2-rgb)) !important;
     width: 100% !important;
 }
 
@@ -96,7 +96,7 @@ button._3oavRVhIS9tC3vBsFT4Ggi.DialogButton._DialogLayout.Secondary.Focusable {
 }
 
 ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR {
-    background: #454545;
+    background: rgb(var(--ctp-surface1-rgb));
 }
 
 ._1ugNiylO2vKXhirsGocAxa .OINnOU8K5HzPe2nzczpZi ._1VNuYHM6BPBOJspC6zPf5r {
@@ -105,12 +105,12 @@ button._3oavRVhIS9tC3vBsFT4Ggi.DialogButton._DialogLayout.Secondary.Focusable {
 
 ._1VNuYHM6BPBOJspC6zPf5r:hover,
 ._1VNuYHM6BPBOJspC6zPf5r._3-SbBb63lDnu6LzKV-q3Cg {
-    background: rgb(var(--dark-30));
+    background: rgb(var(--ctp-surface1-rgb));
     border-radius: 6px;
 }
 
 .OINnOU8K5HzPe2nzczpZi._2m6Q3ca-wXeLIVShFCO51T.d9VKGABvFZQGmdqtaicMo {
-    background: #454545 !important;
+    background: rgb(var(--ctp-surface1-rgb)) !important;
 }
 
 ._3mdnpmV9S9u27eB5JFwFNk ._3BdWqJYvZfTohY-twD2i6Q {

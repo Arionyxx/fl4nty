@@ -29,7 +29,7 @@
   ._1rD8X96FdnksZLvRRlEiCR::before {
   border-radius: 4px !important;
   text-align: center;
-  color: #fff;
+  color: var(--ctp-text);
   font-size: 20px !important;
   line-height: 18px !important;
   margin-right: 15px !important;

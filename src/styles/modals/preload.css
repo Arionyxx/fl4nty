@@ -36,7 +36,7 @@ html body .PopupFullWindow .window-controls .title-area-icon-inner {
 /* Change the width of the scrollbar thumb (the draggable part) */
 .ModalDialogPopup ::-webkit-scrollbar-thumb {
 	width: 10px !important;
-	background-color: #9f9f9f !important;
+	background-color: var(--ctp-overlay1) !important;
 	border-radius: 16px !important;
 }
 
@@ -147,7 +147,7 @@ html body .PopupFullWindow .window-controls .title-area-icon-inner {
 .ModalDialogPopup ._18QCu-7MTzd51UpVbYysDy .settings_item ._1rD8X96FdnksZLvRRlEiCR::before {
 	border-radius: 4px !important;
 	text-align: center;
-	color: #fff;
+	color: var(--ctp-text);
 	font-size: 20px !important;
 	line-height: 18px !important;
 	margin-right: 15px !important;
@@ -172,7 +172,7 @@ html body .PopupFullWindow .window-controls .title-area-icon-inner {
 .ModalDialogPopup ._1-vlriAtKYDViAEunue4VO:hover,
 .ModalDialogPopup .settings_item:hover {
 	background: var(--settings-sidebar-hover-not-select) !important;
-	color: #fff !important;
+	color: var(--ctp-text) !important;
 }
 
 .ModalDialogPopup ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7,
@@ -231,7 +231,7 @@ html body .PopupFullWindow .window-controls .title-area-icon-inner {
 
 .ModalDialogPopup ._2HosnnI_K6IvS1QMGhq46P.JA6JIY08WWMEfWP-sZkZ2.TEWmsM70ZLEOxLAjDMpcv.DialogButton._DialogLayout.Secondary.Focusable:hover,
 .ModalDialogPopup ._7EGqd8bdiXJBd2fj5Hh8r.Focusable:hover {
-	background: #3c3c3c !important;
+	background: rgb(var(--ctp-surface0-rgb)) !important;
 }
 
 .ModalDialogPopup ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF {
@@ -239,7 +239,7 @@ html body .PopupFullWindow .window-controls .title-area-icon-inner {
 }
 
 .ModalDialogPopup ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit {
-	background-color: #fff;
+	background-color: var(--ctp-text);
 }
 
 .ModalDialogPopup .eKmEXJCm_lgme24Fp_HWt::after {
@@ -284,7 +284,7 @@ button.UqEiVDhZ47cn3vWxM7cR0.TEWmsM70ZLEOxLAjDMpcv.DialogButton._DialogLayout.Se
 }
 
 button.UqEiVDhZ47cn3vWxM7cR0.TEWmsM70ZLEOxLAjDMpcv.DialogButton._DialogLayout.Secondary.Focusable:hover {
-	background: #3c3c3c !important;
+	background: rgb(var(--ctp-surface0-rgb)) !important;
 }
 
 button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable {
@@ -295,13 +295,13 @@ button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable {
 }
 
 button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable:hover {
-	background: #3c3c3c !important;
+	background: rgb(var(--ctp-surface0-rgb)) !important;
 	/* box-shadow: none !important; */
 }
 
 .ModalDialogPopup ._2JtC3JSLKaOtdpAVEACsG1 {
-	background: #272727 !important;
-	border: 1px solid #9e9e9e;
+	background: rgb(var(--ctp-base-rgb)) !important;
+	border: 1px solid var(--ctp-overlay1);
 	height: 18px !important;
 }
 
@@ -310,7 +310,7 @@ button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable:ho
 	top: 4px !important;
 	height: 12px !important;
 	left: 4px !important;
-	background: #cecece !important;
+	background: var(--ctp-subtext1) !important;
 }
 
 .ModalDialogPopup ._2JtC3JSLKaOtdpAVEACsG1::before {
@@ -347,7 +347,7 @@ button._3epr8QYWw_FqFgMx38YEEm.DialogButton._DialogLayout.Secondary.Focusable:ho
 	height: 14px !important;
 	border-radius: 15px !important;
 	left: 3px !important;
-	/* background: #CECECE !important; */
+	/* background: var(--ctp-subtext1) !important; */
 }
 
 /* Transition checkmark on and off */
@@ -363,7 +363,7 @@ button.DialogButton::before {
 .ModalDialogPopup .maximizeButton .title-area-icon-inner:hover,
 .ModalDialogPopup .minimizeButton .title-area-icon-inner:hover,
 .ModalDialogPopup .restoreButton .title-area-icon-inner:hover {
-	background: #4a4a4a;
+	background: rgb(var(--ctp-surface1-rgb));
 }
 
 .ModalDialogPopup ._2rjVTGz8aLvqOdz5v2gq5C {
@@ -377,13 +377,13 @@ button.DialogButton::before {
 
 .ModalDialogPopup .DialogDropDown {
 	padding: 6px 6px 6px 12px !important;
-	border: 0.5px solid #3f3f3f !important;
+	border: 0.5px solid rgb(var(--ctp-overlay0-rgb)) !important;
 	background: var(--settings-button-col) !important;
 	border-radius: 6px;
 }
 
 .ModalDialogPopup .DialogDropDown:hover {
-	background: #3c3c3c !important;
+	background: rgb(var(--ctp-surface0-rgb)) !important;
 	box-shadow: none !important;
 }
 
@@ -411,7 +411,7 @@ button.DialogButton::before {
 	border: 0.5px solid rgb(var(--dark-20));
 	box-shadow: none !important;
 	margin-bottom: 0px !important;
-	background: #2c2c2c !important;
+	background: rgb(var(--ctp-base-rgb)) !important;
 }
 
 .ModalDialogPopup .DialogMenuPosition.visible._1S6CCCQlcTTAAHh3LMTLh1 {
@@ -436,7 +436,7 @@ button.DialogButton::before {
 }
 
 .ModalDialogPopup ._2OJfkxlD3X9p8Ygu1vR7Lr {
-	color: #929292 !important;
+	color: var(--ctp-overlay2) !important;
 }
 
 .ModalDialogPopup ._1ml4SNc3LIyBDHIf8ekVSw.Shared_Radio_Group.Panel {
@@ -448,17 +448,17 @@ button.DialogButton::before {
 }
 
 .ModalDialogPopup .HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable:not(._3-_jME_xsuvgT3Dvq4bw_q) {
-	border: 0.5px solid #3f3f3f !important;
+	border: 0.5px solid rgb(var(--ctp-overlay0-rgb)) !important;
 	background: var(--settings-button-col) !important;
 }
 
 .ModalDialogPopup .HijmccPB1BKyhOwhX1EVl.RadioButton.Focusable:hover:not(._3-_jME_xsuvgT3Dvq4bw_q) {
-	background: #3c3c3c !important;
+	background: rgb(var(--ctp-surface0-rgb)) !important;
 }
 
 .ModalDialogPopup .HijmccPB1BKyhOwhX1EVl.RadioButton._3-_jME_xsuvgT3Dvq4bw_q.Focusable {
 	background: var(--SystemAccentColorLight2) !important;
-	border: 0.5px solid #666666 !important;
+	border: 0.5px solid rgb(var(--ctp-overlay0-rgb)) !important;
 	color: #000 !important;
 	font-weight: 400;
 }
@@ -530,13 +530,13 @@ button.DialogButton::before {
 
 .ModalDialogPopup .DialogCheckbox:not(.Active) {
 	background: var(--border-color) !important;
-	border: 0.5px solid #999999;
+	border: 0.5px solid rgb(var(--ctp-overlay1-rgb));
 	border-radius: 4px;
 	box-sizing: border-box;
 }
 
 .ModalDialogPopup .DialogCheckbox:not(.Active) {
-	background: #2a2a2a !important;
+	background: rgb(var(--ctp-base-rgb)) !important;
 }
 
 button._3aB-C2eTsfVtvZR5sC9N_r.DialogButton._DialogLayout.Small.Focusable {
@@ -613,7 +613,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 .ModalDialogPopup .DesktopUI .DialogTextInputBase:focus,
 .ModalDialogPopup .DialogTextInputBase:focus-within {
 	box-shadow: none !important;
-	border: 0.5px solid #66666685 !important;
+	border: 0.5px solid rgb(var(--ctp-overlay0-rgb))85 !important;
 }
 
 button._30Og77vH37EtqaKCCDIAP9.DialogButton._DialogLayout.Secondary.Focusable {
@@ -652,18 +652,18 @@ button.DialogButton._DialogLayout.Secondary.Focusable:not(.TEWmsM70ZLEOxLAjDMpcv
 }
 
 .ModalDialogPopup ._2_0JonK7eKEvh8IoOvq0-B {
-	background: #4c4c4c !important;
+	background: rgb(var(--ctp-surface1-rgb)) !important;
 }
 
 .ModalDialogPopup .Mq25Nap224hVdTdtXSsnq,
 .ModalDialogPopup ._2_vG6TwMW2XtyLlTEaODH9 {
-	background: #9f9f9f !important;
+	background: var(--ctp-overlay1) !important;
 	--left-track-color: var(--SystemAccentColorLight2) !important;
 	height: 4px !important;
 }
 
 .ModalDialogPopup ._2yVKjlAVW3txkGmVpX9G8i {
-	border: 5px solid #454545 !important;
+	border: 5px solid rgb(var(--ctp-surface1-rgb)) !important;
 	box-sizing: border-box;
 	height: 22px !important;
 	width: 22px !important;
@@ -675,12 +675,12 @@ button.DialogButton._DialogLayout.Secondary.Focusable:not(.TEWmsM70ZLEOxLAjDMpcv
 }
 
 .ModalDialogPopup ._3o137DBNF03ytbLBl2jPri:hover > ._1pQZiklDl2xXiNsZ6Uvy_a > ._2yVKjlAVW3txkGmVpX9G8i {
-	border: 3px solid #454545 !important;
+	border: 3px solid rgb(var(--ctp-surface1-rgb)) !important;
 }
 
 .ModalDialogPopup ._2RCSUgg2X_uF_C0e1lrcqc.Panel:hover {
 	/* padding: 6px 6px 6px 12px !important; */
-	border: 0.5px solid #3f3f3f !important;
+	border: 0.5px solid rgb(var(--ctp-overlay0-rgb)) !important;
 	background: var(--settings-button-col) !important;
 	box-sizing: border-box !important;
 	border-radius: 6px;
@@ -691,7 +691,7 @@ button.DialogButton._DialogLayout.Secondary.Focusable:not(.TEWmsM70ZLEOxLAjDMpcv
 }
 
 .ModalDialogPopup ._3rGEUoEnGkGWALEBzbvfef {
-	border: 0.5px solid #3f3f3f !important;
+	border: 0.5px solid rgb(var(--ctp-overlay0-rgb)) !important;
 	background: var(--settings-button-col) !important;
 	box-sizing: border-box !important;
 	border-radius: 4px;
@@ -703,12 +703,12 @@ button.DialogButton._DialogLayout.Secondary.Focusable:not(.TEWmsM70ZLEOxLAjDMpcv
 }
 
 .ModalDialogPopup ._1WKUOT3FdB9-48MMP0Tz9l.Focusable {
-	background: #4a4a4a !important;
-	border: 0.5px solid #6666664a;
+	background: rgb(var(--ctp-surface1-rgb)) !important;
+	border: 0.5px solid rgb(var(--ctp-overlay0-rgb))4a;
 }
 
 .ModalDialogPopup ._1rihlgVMF4Q_fFZDnXeVt5 {
-	color: #fff !important;
+	color: var(--ctp-text) !important;
 }
 
 /* .contextmenu_contextMenuContents_2y2tU {
@@ -721,7 +721,7 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
 
 .ModalDialogPopup ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover {
 	background: var(--settings-sidebar-hover-not-select) !important;
-	color: #fff !important;
+	color: var(--ctp-text) !important;
 	border-radius: 4px !important;
 }
 
@@ -758,7 +758,7 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
 }
 
 .ModalDialogPopup .PP7LM0Ow1K5qkR8WElLpt.visible._1S6CCCQlcTTAAHh3LMTLh1 {
-	background: #2e2e2e !important;
+	background: rgb(var(--ctp-base-rgb)) !important;
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
 	border-radius: 8px !important;
@@ -778,7 +778,7 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
 }
 
 .ModalDialogPopup ._2y2tUbsMx8OIwkimGSyHmb {
-	background: #2e2e2e !important;
+	background: rgb(var(--ctp-base-rgb)) !important;
 }
 
 .ModalDialogPopup .PP7LM0Ow1K5qkR8WElLpt.visible._1S6CCCQlcTTAAHh3LMTLh1 {
@@ -794,7 +794,7 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt {
 }
 
 .ModalDialogPopup .S-_LaQG5eEOM2HWZ-geJI._1pmyxI3wxLrWwGnc52yVns ._3b0U-QDD-uhFpw6xM716fw {
-	color: #7b7b7b;
+	color: var(--ctp-overlay1);
 }
 
 .ModalDialogPopup ._1Hye7o1wYIfc9TE9QKRW4T {
@@ -849,7 +849,7 @@ div.ModalPosition_TopBar {
 }
 
 .ModalDialogPopup ._29AJUo6aKT93gX24N5WFj_.visible._1S6CCCQlcTTAAHh3LMTLh1 {
-	border: 1px solid #1d1d1d !important;
+	border: 1px solid rgb(var(--ctp-mantle-rgb)) !important;
 	border-radius: 6px !important;
 	background: rgb(var(--dark-2b)) !important;
 }
@@ -857,7 +857,7 @@ div.ModalPosition_TopBar {
 .ModalDialogPopup ._3GbHFVMCkeB-Dv1uphs9Xo.Panel {
 	background: unset !important;
 	box-shadow: unset !important;
-	border: 1px solid #1d1d1d !important;
+	border: 1px solid rgb(var(--ctp-mantle-rgb)) !important;
 	border-radius: 6px !important;
 	margin-bottom: 10px !important;
 }
@@ -867,7 +867,7 @@ div.ModalPosition_TopBar {
 }
 
 .ModalDialogPopup .DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically {
-	border: 2px solid #353535;
+	border: 2px solid rgb(var(--ctp-surface0-rgb));
 	border-radius: 8px;
 	/* padding: 26px !important; */
 }

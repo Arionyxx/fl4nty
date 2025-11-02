@@ -1,11 +1,11 @@
 :root {
-    --playButtonColor: #01a75b;
-    --playButtonHoverColor: #00bb67;
-    --rightSideButtonColor: #00bb67;
-    --rightSideButtonHoverColor: #01a75b;
+    --playButtonColor: var(--ctp-green);
+    --playButtonHoverColor: var(--ctp-teal);
+    --rightSideButtonColor: var(--ctp-teal);
+    --rightSideButtonHoverColor: var(--ctp-green);
 
-    --installButtonColor: #235ecf;
-    --installButtonHoverColor: #1f54b8;
+    --installButtonColor: var(--ctp-blue);
+    --installButtonHoverColor: var(--ctp-sapphire);
 }
 
 ._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX {

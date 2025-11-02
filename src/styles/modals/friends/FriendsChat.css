@@ -110,16 +110,16 @@
 }
 
 .timeDivision .preHorizDivider {
-    background: #ffffff59 !important;
+    background: rgba(var(--ctp-text-rgb), 0.35) !important;
     width: 0px !important;
 }
 
 .msg.timeDivision {
-    color: #ffffffc2;
+    color: rgba(var(--ctp-text-rgb), 0.76);
 }
 
 .horizDivider {
-    background: #ffffff59 !important;
+    background: rgba(var(--ctp-text-rgb), 0.35) !important;
 }
 
 * {
@@ -285,7 +285,7 @@ textarea.pewyBQoFSgFWo_Ms99aRm.Focusable {
 }
 
 ._3Ule3rolhZJiBN4yNNtk1s:focus-within {
-    background: #1F1F1F !important;
+    background: rgb(var(--ctp-mantle-rgb)) !important;
     border-bottom: 1px solid var(--SystemAccentColorLight2) !important;
 }
 
@@ -299,7 +299,7 @@ textarea.pewyBQoFSgFWo_Ms99aRm.Focusable {
 .ScrollToBottomButton>span {
     padding: 0 !important;
     height: 35px;
-    border: 0.5px solid #6666662b;
+    border: 0.5px solid rgba(var(--ctp-overlay0-rgb), 0.17);
     width: 35px;
     transition: all 0.2s;
     font-size: 0 !important;
@@ -320,7 +320,7 @@ textarea.pewyBQoFSgFWo_Ms99aRm.Focusable {
 }
 
 .ScrollToBottomButton>span:hover {
-    background: #66666652;
+    background: rgba(var(--ctp-overlay0-rgb), 0.32);
 }
 
 .FriendChatTypingNotification {
@@ -401,7 +401,7 @@ svg.x623f5XW8KKftpfX7C_tg._2nm4LZGShxxci149gEUj9V:hover::before {
     box-shadow: 0 7px 18px 0px #000000ad;
     border-radius: 6px !important;
     margin: unset !important;
-    border: 0.5px solid #232323;
+    border: 0.5px solid rgb(var(--ctp-mantle-rgb));
 }
 
 ._3QoRRxsgnDolcCPCrAPm47 {
@@ -420,7 +420,7 @@ svg.x623f5XW8KKftpfX7C_tg._2nm4LZGShxxci149gEUj9V:hover::before {
 }
 
 ._2MwqO9UiGxdr47Pnx0uw8I {
-    background: #2525256b !important;
+    background: rgba(var(--ctp-mantle-rgb), 0.42) !important;
 }
 
 .chatHistory {
@@ -486,7 +486,7 @@ form._3Ule3rolhZJiBN4yNNtk1s {
     padding-left: 0px !important;
     font-size: 10px;
     display: flex;
-    color: #ababab;
+    color: var(--ctp-subtext0);
     justify-content: center;
 }
 
@@ -512,7 +512,7 @@ form._3Ule3rolhZJiBN4yNNtk1s {
     bottom: -2px !important;
     position: absolute !important;
     right: -2px !important;
-    border: 2px solid #151515 !important;
+    border: 2px solid rgb(var(--ctp-crust-rgb)) !important;
 }
 
 .speaker .speakerStatus,
@@ -606,7 +606,7 @@ svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu {
     content: "";
     font-family: FluentSystemIcons;
     font-size: 24px;
-    color: #b7ccd5;
+    color: var(--ctp-sky);
 }
 
 .friendListButton.addFriendButton.no-drag {
@@ -699,7 +699,7 @@ input#friendSearchInputID {
 }
 
 input#friendSearchInputID::placeholder {
-    color: #c5c5c5 !important;
+    color: var(--ctp-subtext1) !important;
     font-family: var(--text-font-family) !important;
     text-decoration: none !important;
     font-style: normal !important;
@@ -714,7 +714,7 @@ input#friendSearchInputID::placeholder {
 
 .groupChatSectionTitle {
     font-size: 0px !important;
-    background: #757575;
+    background: rgb(var(--ctp-overlay1-rgb));
     height: 4px;
     width: 25%;
     padding: 0 !important;
@@ -738,7 +738,7 @@ button.createChatRoomButton svg {
 
 .friendStatusHover.ingame:hover,
 .friendStatusHover.ingame.Friend_ContextMenuActive {
-    background: #262626;
+    background: rgb(var(--ctp-mantle-rgb));
 }
 
 .friend {
@@ -765,12 +765,12 @@ button.createChatRoomButton svg {
 
 .friendStatusHover.online:hover,
 .friendStatusHover.online.Friend_ContextMenuActive {
-    background: #262626 !important;
+    background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 .friendStatusHover.offline:hover,
 .friendStatusHover.offline.Friend_ContextMenuActive {
-    background: #262626 !important;
+    background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 .AvatarAndUser ._3n8q82Bm3oNKRPFbrZOlo8 .ContextMenuButton {
@@ -797,7 +797,7 @@ button.createChatRoomButton svg {
 }
 
 .AvatarAndUser:hover {
-    background: #262626;
+    background: rgb(var(--ctp-mantle-rgb));
 }
 
 .confirmInviteButton {
@@ -821,7 +821,7 @@ button.createChatRoomButton svg {
 
 span.inviteLabel {
     width: 100%;
-    color: #a5a5a5 !important;
+    color: var(--ctp-overlay2) !important;
 }
 
 .groupName.Panel.Focusable {
@@ -879,13 +879,13 @@ span.inviteLabel {
 }
 
 .friendInviteButton.bright.acceptFriendInvite {
-    background: #022f02;
+    background: rgba(var(--ctp-green-rgb), 0.15);
     border: 1px solid green;
     box-shadow: none !important;
 }
 
 .friendInviteButton.bright.declineFriendInvite {
-    background: #330808;
+    background: rgba(var(--ctp-red-rgb), 0.15);
     border: 1px solid red;
     box-shadow: none !important;
 }
@@ -897,7 +897,7 @@ span.inviteLabel {
 
 .friendsListSectionTitle {
     display: block !important;
-    border-top: 1px solid #404040;
+    border-top: 1px solid rgb(var(--ctp-surface0-rgb));
 }
 
 .friendTab.socialListTab.activeTab {
@@ -973,7 +973,7 @@ span.inviteLabel {
 
 .ChatRoomGroupAvatar.Small {
     border-radius: 6px;
-    border: 2px solid #3e3e3e !important;
+    border: 2px solid rgb(var(--ctp-surface0-rgb)) !important;
     background: rgb(var(--dark-30)) !important;
 }
 
@@ -995,12 +995,12 @@ span.inviteLabel {
 }
 
 img.gameIcon {
-    border: 1px solid #333333;
+    border: 1px solid rgb(var(--ctp-surface0-rgb));
     box-shadow: none;
 }
 
 .groupName .gameGroupContainer .groupIcon {
-    border: 1px solid #333333;
+    border: 1px solid rgb(var(--ctp-surface0-rgb));
     box-shadow: none;
     border-radius: 4px !important;
 }
@@ -1101,9 +1101,9 @@ body.fullheight {
 }
 
 .ChatMessageInvite {
-    background: #242424;
+    background: rgb(var(--ctp-mantle-rgb));
     border-radius: 6px;
-    border: 1px solid #343434;
+    border: 1px solid rgb(var(--ctp-surface0-rgb));
 }
 
 .gameInviteMsg .productName {
@@ -1113,11 +1113,11 @@ body.fullheight {
 }
 
 .inviteLabel {
-    color: #8f8f8f !important;
+    color: var(--ctp-overlay2) !important;
 }
 
 .invitedTimeLabel {
-    color: #b3b3b3 !important;
+    color: var(--ctp-subtext1) !important;
     right: 14px !important;
     bottom: 14px !important;
     text-transform: unset !important;
@@ -1127,7 +1127,7 @@ body.fullheight {
     width: 1px !important;
     border: none !important;
     min-width: unset;
-    background: #2a2a2a;
+    background: rgb(var(--ctp-base-rgb));
 }
 
 .chatDialogs.Panel.Focusable {

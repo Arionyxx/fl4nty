@@ -10,42 +10,42 @@
   --scrollbar: rgb(var(--dark-30));
   --scrollbar: rgb(var(--dark-30));
   --black: #000000;
-  --black-ish: #2a3f5a00;
-  --realblack: #101010;
+  --black-ish: transparent;
+  --realblack: rgb(var(--ctp-crust-rgb));
   --blacker-ish: rgb(var(--dark-1b));
-  --blacker: #1c1c1c;
-  --lightblack: #121212;
-  --darkergrey: #151515;
-  --bedarkgrey: #161616;
-  --thegrey: #181818;
-  --begrey: #262627;
-  --littlegrey: #282828;
-  --darkgrey: #202020;
-  --grey: #2e2e2f;
-  --lightgrey: #3e3e3f;
-  --lightergrey: #353535;
-  --grey-ish: #454545;
-  --dakerwhite: #b8b6b4;
-  --darkwhite: #d9dadd;
-  --white: #ffffff;
-  --darkblue: #0e5984;
-  --blue: #4f95bd;
-  --blu: #67c1f5;
-  --blue-ish: #7cbef8;
-  --blue-er: #a4d7f5;
-  --lightblue: #c4e4f2;
-  --darkgreen: #5c7e10;
-  --green: #d2e885;
-  --ingame: #90ba3c;
-  --online: #57cbde;
-  --offline: #898989;
-  --gold: #ffcc6a;
-  --bronze: #695833;
-  --purple: #6624e2;
-  --pink: #ff00ff;
-  --red: #ff0000;
-  --orange: #ff6600;
-  --yellow: #ffff00;
+  --blacker: rgb(var(--ctp-mantle-rgb));
+  --lightblack: rgb(var(--ctp-crust-rgb));
+  --darkergrey: rgb(var(--ctp-crust-rgb));
+  --bedarkgrey: rgb(var(--ctp-crust-rgb));
+  --thegrey: rgb(var(--ctp-mantle-rgb));
+  --begrey: rgb(var(--ctp-mantle-rgb));
+  --littlegrey: rgb(var(--ctp-base-rgb));
+  --darkgrey: rgb(var(--ctp-base-rgb));
+  --grey: rgb(var(--ctp-base-rgb));
+  --lightgrey: rgb(var(--ctp-surface0-rgb));
+  --lightergrey: rgb(var(--ctp-surface0-rgb));
+  --grey-ish: rgb(var(--ctp-surface1-rgb));
+  --dakerwhite: var(--ctp-subtext1);
+  --darkwhite: var(--ctp-text);
+  --white: var(--ctp-text);
+  --darkblue: var(--ctp-sapphire);
+  --blue: var(--ctp-blue);
+  --blu: var(--ctp-sky);
+  --blue-ish: var(--ctp-sky);
+  --blue-er: var(--ctp-sky);
+  --lightblue: var(--ctp-sky);
+  --darkgreen: var(--ctp-green);
+  --green: var(--ctp-green);
+  --ingame: var(--ctp-green);
+  --online: var(--ctp-teal);
+  --offline: var(--ctp-overlay2);
+  --gold: var(--ctp-yellow);
+  --bronze: var(--ctp-peach);
+  --purple: var(--ctp-mauve);
+  --pink: var(--ctp-pink);
+  --red: var(--ctp-red);
+  --orange: var(--ctp-peach);
+  --yellow: var(--ctp-yellow);
   /* Profile Blur */
   --blur: blur(10px);
   /* default 10px */
@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
 
 /* Main Code */
 html {
-  background: #232323 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 div.bb_code,
@@ -150,7 +150,7 @@ blockquote.bb_blockquote,
 }
 
 .browse_ctn_background {
-  background: #232323 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 .miniprofile_ingame {
@@ -362,7 +362,7 @@ body.v6 .page_content.browse_reviews {
   background-color: var(--blue) !important;
   display: inline-block !important;
   font-size: 10px !important;
-  background: #ff7b00 !important;
+  background: var(--ctp-peach) !important;
   line-height: 13px !important;
   padding: 0 4px !important;
   margin-top: 4px !important;
@@ -390,7 +390,7 @@ body.v6 .page_content.browse_reviews {
 
 .searchbox_news {
   border: 1px solid var(--black) !important;
-  background-color: #5398c300 !important;
+  background-color: transparent !important;
   border-radius: var(--border0) !important;
 }
 
@@ -402,7 +402,7 @@ body.recommendgame #review_create {
 #review_create .input_box {
   border: 1px solid var(--black) !important;
   border-radius: var(--border0) !important;
-  background-color: #222b3500 !important;
+  background-color: transparent !important;
 }
 
 #footerText {
@@ -425,11 +425,11 @@ body.recommendgame #review_create {
 }
 
 body.v6.summer2018_home .gutter_header a:hover .home_page_gutter_giftcard {
-  background: #30343f00 !important;
+  background: transparent !important;
 }
 
 body.v6.summer2018_home .home_page_gutter_giftcard {
-  background: #1c202a00 !important;
+  background: transparent !important;
 }
 
 .FeaturedBlock.First {
@@ -2577,7 +2577,7 @@ body.v6 .wishlist_header h2 {
     .btn_active
   ):not(.active):hover {
   border-radius: var(--border0) !important;
-  background: #23678e !important;
+  background: var(--ctp-blue) !important;
   color: var(--white) !important;
 }
 
@@ -3285,7 +3285,7 @@ h2 span.note:hover {
 #review_histograms_container {
   border-top-left-radius: var(--border0) !important;
   border-top-right-radius: var(--border0) !important;
-  background: #2d2d2d !important;
+  background: rgb(var(--ctp-base-rgb)) !important;
 }
 
 .review_histogram_section .user_reviews_summary_bar {
@@ -4676,15 +4676,15 @@ div.profile_page.has_profile_background {
 }
 
 .image_Btn_ {
-  background: #353535 !important;
+  background: rgb(var(--ctp-surface0-rgb)) !important;
 }
 
 .image_Btn_:hover {
-  background: #454545 !important;
+  background: rgb(var(--ctp-surface1-rgb)) !important;
 }
 
 body.responsive_page {
-  background: #1e1e1f !important;
+  background: rgb(var(--ctp-base-rgb)) !important;
 }
 
 .responsive_page_frame.no_header {
@@ -4692,11 +4692,11 @@ body.responsive_page {
 }
 
 div#tab_filters {
-  background: #252525 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 div#dropdown_sort {
-  background: #252525 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 body.v6 .game_page_background.game {
@@ -4726,7 +4726,7 @@ div#home_gutter_recentlyviewed {
 div#store_header,
 div#store_header .content {
   height: 56px !important;
-  background: #15151598 !important;
+  background: rgba(var(--ctp-crust-rgb), 0.6) !important;
 }
 
 #store_nav_area .store_nav_bg,
@@ -4829,9 +4829,9 @@ div#store_controls {
 .store_main_capsule .reason .main .tags > span,
 .tab_preview .tags > a {
   border-radius: 10px !important;
-  border-bottom: 2px solid #5d5d5d !important;
+  border-bottom: 2px solid rgb(var(--ctp-surface2-rgb)) !important;
   margin-right: 5px !important;
-  background: #404040 !important;
+  background: rgb(var(--ctp-surface0-rgb)) !important;
   backdrop-filter: blur(7px);
 }
 
@@ -4856,7 +4856,7 @@ div#store_controls {
 }
 
 .carousel_container .arrow.left {
-  background: #181818 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
   height: 25px !important;
   width: 25px !important;
   border-radius: 50px !important;
@@ -4880,7 +4880,7 @@ div#store_controls {
 }
 
 .carousel_container .arrow.right {
-  background: #181818 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
   height: 25px !important;
   width: 25px !important;
   border-radius: 50px !important;
@@ -4893,8 +4893,8 @@ div#store_controls {
   background-repeat: no-repeat !important;
   background-position-x: 90% !important;
   background-position-y: center !important;
-  color: #d8d8d8 !important;
-  border-bottom: 2px solid #66666670 !important;
+  color: var(--ctp-text) !important;
+  border-bottom: 2px solid rgba(var(--ctp-overlay0-rgb), 0.44) !important;
   height: 25px !important;
   justify-content: left !important;
   align-items: center;
@@ -4917,9 +4917,9 @@ html .btnv6_white_transparent > span {
   letter-spacing: normal;
   font-weight: normal !important;
   text-transform: capitalize;
-  border-left: 1px solid #454545 !important;
-  border-right: 1px solid #454545 !important;
-  border-top: 1px solid #3f3f3f !important;
+  border-left: 1px solid rgb(var(--ctp-surface1-rgb)) !important;
+  border-right: 1px solid rgb(var(--ctp-surface1-rgb)) !important;
+  border-top: 1px solid rgb(var(--ctp-overlay0-rgb)) !important;
 }
 
 /* .btnv6_white_transparent>span:hover {
@@ -4928,7 +4928,7 @@ html .btnv6_white_transparent > span {
     border-left: 1px solid transparent !important;
     border-right: 1px solid transparent !important;
     color: #cacaca !important;
-    border-bottom: 2px solid #66666670 !important;
+    border-bottom: 2px solid rgba(var(--ctp-overlay0-rgb), 0.44) !important;
     background-position-x: 93% !important;
     transform: translateY(-2px) !important;
 } */
@@ -5089,12 +5089,12 @@ body.v6 .broadcast_live_stream_icon {
 .tab_item {
   height: 80px !important;
   border: 1px solid rgb(255 255 255 / 6%) !important;
-  background: #232323 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 #tab_preview_container {
   border: 1px solid rgb(255 255 255 / 6%);
-  background: #232323 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 .home_leftcol {
@@ -5195,7 +5195,7 @@ body.v6 .broadcast_live_stream_icon {
 
 .discovery_queue_ctn .begin_exploring {
   border-radius: 6px !important;
-  background: #232323 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
   color: #fff !important;
   border: 1px solid rgb(255 255 255 / 6%) !important;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkUlEQVR4nO3XMQ7CMBBE0b1eRJMCRAGnT7iFkX4KQoNMHU/0n+R+xytrvVWSJEk6DDAB637mSsOn8K8G3Cs4QF4IYN6Ljg5x7YR4A89KgSEGgZ1I7QRwAV6Mr3UndmegjGw5ZYApJESL+PQBtz+P+FGjw+IPgjd/EMJvfo5eaDjBSrnGFv/zA1giJqwkSVKNYwOtmJ7vTEXf+gAAAABJRU5ErkJggg==) !important;
@@ -5939,7 +5939,7 @@ a.gutter_item {
 
 div#store_header,
 div#store_header .content {
-  background: #28282852 !important;
+  background: rgb(var(--ctp-base-rgb))52 !important;
 }
 
 .store_header_btn_gray.store_header_btn a,
@@ -6078,11 +6078,11 @@ div#store_header_cart_btn::before {
 }
 
 html {
-  background: #232323 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 .home_page_body_ctn {
-  background: #232323 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 .home_ctn {
@@ -6155,7 +6155,7 @@ html {
 }
 
 ._3uAuM7D5wUQg-5M21NGJc5 {
-  background: #232323 !important;
+  background: rgb(var(--ctp-mantle-rgb)) !important;
 }
 
 ._1B_k-wp3lqSLARvY8-5-EX {
@@ -6163,19 +6163,19 @@ html {
 }
 
 ._2EUBPpuLIR8PTTb_d40Gv9.CcuoOiSs23_Y___I-1Myh {
-  background: #23232335 !important;
+  background: rgb(var(--ctp-mantle-rgb))35 !important;
 }
 
 ._2c38-cNCRIFm4I1wCCJ2ac._1hcJa9ylImmFKuHsfilos {
   border-radius: 10px !important;
-  border-bottom: 2px solid #5d5d5d !important;
+  border-bottom: 2px solid rgb(var(--ctp-surface2-rgb)) !important;
   margin-right: 5px !important;
-  background: #404040 !important;
+  background: rgb(var(--ctp-surface0-rgb)) !important;
   backdrop-filter: blur(7px);
 }
 
 .searchbox {
-  background: #3030307a !important;
+  background: rgb(var(--ctp-base-rgb))7a !important;
   font-family: "Segoe UI Variable Text";
 }
 
@@ -6251,7 +6251,7 @@ input#store_nav_search_term {
 }
 
 a.app_tag {
-  background: #303030;
+  background: rgb(var(--ctp-base-rgb));
   color: white !important;
   padding-left: 20px;
   padding-right: 20px;
@@ -6271,7 +6271,7 @@ a.app_tag {
 /* .game_page_autocollapse_ctn.collapsed {
     width: 100% !important;
     padding: 24px;
-    background: #303030 !important;
+    background: rgb(var(--ctp-base-rgb)) !important;
     border-radius: 10px;
     border: 1px solid #1d1d1d;
 } */
@@ -6279,7 +6279,7 @@ a.app_tag {
 div#game_area_description {
   width: 100% !important;
   padding: 20px !important;
-  background: #303030 !important;
+  background: rgb(var(--ctp-base-rgb)) !important;
   border-radius: 10px;
   border: 1px solid #1d1d1d;
   margin-bottom: 25px;
@@ -6396,7 +6396,7 @@ img {
 }
 
 .game_area_purchase_game_wrapper .game_area_purchase_game {
-  background: #2d2d2d !important;
+  background: rgb(var(--ctp-base-rgb)) !important;
   border: 1px solid #1d1d1d !important;
   border-radius: 8px !important;
 }
@@ -6421,7 +6421,7 @@ img {
 .game_area_offsite_purchase h1 {
   margin-bottom: 28px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #505050 !important;
+  border-bottom: 1px solid rgb(var(--ctp-surface2-rgb)) !important;
   margin-left: -16px;
   padding-left: 16px;
   width: calc(100% + 16px);
@@ -6433,7 +6433,7 @@ div#aboutThisGame {
 }
 
 .game_page_autocollapse.sys_req {
-  background: #303030 !important;
+  background: rgb(var(--ctp-base-rgb)) !important;
   padding: 20px;
   border-radius: 8px;
   border: 1px solid #1d1d1d !important;
@@ -6446,7 +6446,7 @@ body.v6 .game_description_column .game_page_autocollapse.sys_req h2,
   padding-left: 20px !important;
   width: calc(100% + 20px) !important;
   padding-bottom: 25px !important;
-  border-bottom: 1px solid #505050 !important;
+  border-bottom: 1px solid rgb(var(--ctp-surface2-rgb)) !important;
 }
 
 .game_page_autocollapse.sys_req {
@@ -6464,7 +6464,7 @@ div#glanceCtnResponsiveRight {
 }
 
 .app_tag.add_button {
-  background: #303030;
+  background: rgb(var(--ctp-base-rgb));
   color: white !important;
   padding-left: 12px;
   padding-right: 12px;
@@ -6503,7 +6503,7 @@ div#glanceCtnResponsiveRight {
 
 .highlight_ctn {
   padding: 60px 20px 20px 20px;
-  background: #2d2d2d;
+  background: rgb(var(--ctp-base-rgb));
   border-radius: 8px !important;
   border: 1px solid #1d1d1d;
   position: relative;
@@ -6518,7 +6518,7 @@ div#glanceCtnResponsiveRight {
   font-weight: 600 !important;
   width: calc(100% - 32px);
   /* background: black; */
-  border-bottom: 1px solid #505050;
+  border-bottom: 1px solid rgb(var(--ctp-surface2-rgb));
   color: white;
   /* margin: 10px 10px 10px 0px; */
   padding: 12px;
@@ -6538,14 +6538,14 @@ div#glanceCtnResponsiveRight {
 }
 
 ._3zXpFCyX2IiaD-MNF5KJFf.broadcast_brd_ctn_trgt {
-  background: #2d2d2d;
+  background: rgb(var(--ctp-base-rgb));
   border-radius: 8px !important;
   border: 1px solid #1d1d1d;
 }
 
 .bordered_title_trgt {
   margin-left: -25px;
-  border-bottom: 1px solid #505050 !important;
+  border-bottom: 1px solid rgb(var(--ctp-surface2-rgb)) !important;
   padding: 0px 15px 13px 15px;
   margin-top: -16px;
 }
@@ -6583,7 +6583,7 @@ div#glanceCtnResponsiveRight {
 }
 
 .leftcol .review_box {
-  background: #2d2d2d !important;
+  background: rgb(var(--ctp-base-rgb)) !important;
   border: 1px solid #1d1d1d !important;
   padding: 20px !important;
   border-radius: 8px !important;
@@ -6601,14 +6601,14 @@ div {
 }
 
 .early_access_announcements.Focusable {
-  background: #2d2d2d;
+  background: rgb(var(--ctp-base-rgb));
   padding: 20px !important;
   border: 1px solid #1d1d1d !important;
   border-radius: 8px !important;
 }
 
 div#game_area_reviews {
-  background: #2d2d2d;
+  background: rgb(var(--ctp-base-rgb));
   padding: 20px !important;
   width: calc(100% - 41px);
   border: 1px solid #1d1d1d !important;
@@ -6616,7 +6616,7 @@ div#game_area_reviews {
 }
 
 div#gameAreaDLCSection {
-  background: #2d2d2d;
+  background: rgb(var(--ctp-base-rgb));
   padding: 20px !important;
   border-radius: 8px !important;
   border: 1px solid #1d1d1d !important;
@@ -6902,7 +6902,7 @@ div#store_header .content {
 }
 
 div#earlyAccessHeader {
-  background: #2d2d2d !important;
+  background: rgb(var(--ctp-base-rgb)) !important;
   border: 1px solid #1d1d1d !important;
   border-radius: 8px !important;
 }
@@ -6994,7 +6994,7 @@ div#featured_special_deals .home_section_title {
 }
 
 div#featured_special_deals .home_section_subtitle {
-  color: #5d5d5d;
+  color: rgb(var(--ctp-surface2-rgb));
   font-weight: 600 !important;
   margin-top: 13px;
   font-size: 18px !important;

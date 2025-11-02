@@ -22,7 +22,7 @@ export async function handleLibraryContainerResize() {
                 }
                 .lO1IF132jJ1gc9yz2HYvV ._3qDWQGB0rtwM3qpXTb11Q-._2WaHZuAetbqENmqDthu3nl:nth-child(4)::before {
                     content: "";
-                    color: #67b3ff;
+                    color: var(--ctp-blue);
                 }
             `;
             document.head.appendChild(style);
@@ -42,7 +42,7 @@ export async function handleLibraryContainerResize() {
                 }
                 .lO1IF132jJ1gc9yz2HYvV ._3qDWQGB0rtwM3qpXTb11Q-._2WaHZuAetbqENmqDthu3nl:nth-child(3)::before {
                     content: "";
-                    color: #67b3ff;
+                    color: var(--ctp-blue);
                 }
             `;
             document.head.appendChild(style);

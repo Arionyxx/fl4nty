@@ -37,7 +37,7 @@ svg._25lBLzuVeYAUG279up4xP8 {
 }
 
 svg._25lBLzuVeYAUG279up4xP8 {
-	background: #454545;
+	background: rgb(var(--ctp-surface1-rgb));
 	padding: 10px 11px 10px 11px !important;
 	margin-right: 6px;
 	border-radius: 6px;

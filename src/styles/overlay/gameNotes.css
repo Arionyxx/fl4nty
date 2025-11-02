@@ -54,7 +54,7 @@
 
 
 ._3zWunJFZU6u89fIABN9Gkf._3lEt5gxDF4ACrtnP4U7Z-D.Panel {
-    background: #252525;
+    background: rgb(var(--ctp-mantle-rgb));
     border-radius: 6px;
     box-shadow: none !important;
 }
@@ -84,7 +84,7 @@
 }
 
 .DesktopUI .title-area-icon:hover, .friendsui-container .title-area-icon:hover {
-    background: #353535;
+    background: rgb(var(--ctp-surface0-rgb));
 }
 
 .title-area-icon.closeButton.windowControlButton {
