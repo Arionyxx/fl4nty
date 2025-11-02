@@ -1,4 +1,16 @@
+/* CATPPUCCIN MIGRATION - NORD THEME
+ * This Nord theme will be replaced with Catppuccin equivalents.
+ * Nord colors map approximately to Catppuccin as follows:
+ * - #2E3440 (Polar Night 0) → ctp-base
+ * - #3B4252 (Polar Night 1) → ctp-surface0
+ * - #434C5E (Polar Night 2) → ctp-surface1
+ * - #4C566A (Polar Night 3) → ctp-surface2
+ * Consider using Catppuccin Frappé for a similar cooler tone.
+ * See CATPPUCCIN_THEME_MAPPING.md for complete mapping.
+ */
+
 :root {
+    /* MAP TO: var(--ctp-base) */
     --background-fill-color-layer-default: #2E3440;
 
     --settings-sidebar-btn-bg: #434C5E;

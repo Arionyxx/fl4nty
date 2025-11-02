@@ -1,3 +1,10 @@
+/* 
+ * CATPPUCCIN THEME AUDIT COMPLETE ✅
+ * See root-level documentation:
+ * - CATPPUCCIN_THEME_MAPPING.md (detailed color mapping)
+ * - CATPPUCCIN_AUDIT_SUMMARY.md (implementation guide)
+ */
+
 @import url('./src/styles/frame.css');
 @import url('./src/styles/library.css');
 
